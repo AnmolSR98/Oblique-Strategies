@@ -7,3 +7,31 @@ body {
     background-attachment: fixed; 
     background-position: center;
 }
+
+.content{
+    display: grid; 
+    place-items: center; 
+}
+
+.text{
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 2.5%;
+    height: 500px;
+    width: 80%;
+    place-items: center;
+    border-radius: 25px;
+}
+
+p{  
+    font-size: 35px;
+    margin: 0px;
+    padding: 3px;
+    color: white;
+    opacity: 1.0;
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
