@@ -8,14 +8,16 @@
 </head>
 
 <body>
-<div class = 'content'><div class = "text" id = "cardText"><p></p></div></div>
+<div class = 'content'><div class = "text" id = "cardText"><button onclick = "placeCardText()">Placeholder</button></div></div>
 </body>
 
 <script type="text/javascript">
 
 function placeCardText(){
     
-    document.getElementById("cardText").innerHTML = "Joan Holloway";
+    const possibleQuotes = ["Kinsey", "Holloway", "Cosgrove"];
+
+    document.getElementById("cardText").innerHTML = possibleQuotes[Math.floor(Math.random()*3)];
 }
 
 </script>
