@@ -22,9 +22,10 @@
 
     /*Make this function into an IIFE so it executes first [X]*/
 
-    let possibleQuotes = ["Kinsey", "Holloway", "Cosgrove"];
+    //let possibleQuotes = ["Kinsey", "Holloway", "Cosgrove"];
+    document.getElementById("cardText").innerHTML = url("../code/quotes.csv").split(',')[0];
 
-    document.getElementById("cardText").innerHTML = possibleQuotes[Math.floor(Math.random()*3)];
+    //document.getElementById("cardText").innerHTML = possibleQuotes[Math.floor(Math.random()*possibleQuotes.length)];
 })();
 
 
@@ -49,6 +50,7 @@
 
     // can use either .concat(), or simples +'s for strings in js
     let path = firstpath.concat(address, secondpath);
+    // could have also used '${path}' 
     let url = "url('" + path + "')";
 
     document.body.style.backgroundImage = url; 
