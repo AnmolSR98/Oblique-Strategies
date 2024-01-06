@@ -8,13 +8,13 @@ body {
     background-position: center;
 }
 
-.content{
+.content {
     display: grid; 
     place-items: center; 
 }
 
-.text{
-    background: rgba(0, 0, 0, 0.5);
+.text {
+    background: rgba(0, 0, 0, 0.8);
     display: inline-block;
     margin: 2.5%;
     height: 500px;
@@ -23,7 +23,7 @@ body {
     border-radius: 25px;
 }
 
-p{  
+p {  
     font-size: 35px;
     margin: 0px;
     padding: 3px;
