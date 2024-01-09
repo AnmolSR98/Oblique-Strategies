@@ -8,7 +8,7 @@
 // this entire function is working as intended, save for the final line of actual logic [FIXED]
 (function pickBackground(){
 
-    let firstpath = '../backgrounds/';
+    let firstpath = 'backgrounds/';
     let secondpath = '.jpg';
 
     // will generate numbers from 1 to 14, tested this very informally

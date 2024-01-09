@@ -71,8 +71,8 @@ body {
         left: 10%;
         right: 10%;
         border-radius: 15px;
-        animation-delay: 3s;
         animation: fadeIn 4s;
+        animation-delay: 3s;
         border-color: white;
         border-style: solid;
     }
@@ -87,8 +87,8 @@ body {
         color: white;
         opacity: 1.0;
         display: grid;
-        animation-delay: 3s;
         animation: fadeIn 4s;
+        animation-delay: 3s;
         text-align: center;
         overflow: auto;
     }
@@ -124,8 +124,8 @@ footer {
     position: fixed;
     right: 0px;
     bottom: 0px;
-    animation-delay: 5s;
     animation: fadeIn2 8s;
+    animation-delay: 5s;
 }
 
 .footertext{
@@ -133,6 +133,6 @@ footer {
     opacity: 1.0;
     text-align: center;
     margin: 3px;
-    animation-delay: 5s;
     animation: fadeIn2 8s;
+    animation-delay: 5s;
 }
